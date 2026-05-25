@@ -11,6 +11,8 @@ pinned: false
 
 # RAG Document Q&A Assistant
 
+🚀 **Live Demo:** https://huggingface.co/spaces/Ragasudha/rag-document-assistant
+
 An AI-powered application...
 
 # RAG Document Q&A Assistant
