@@ -23,7 +23,7 @@ def answer_question(question):
         result = ask_question(qa_chain, question)
         answer = result["answer"]
         sources = "\n\n---\n".join(result["sources"])
-        return f"**Answer:**\n{answer}\n\n**Relevant excerpts:**\n{sources}"
+        return f"**Answer:**\n{answer}"
     except Exception as e:
         return f"Error: {str(e)}"
 
