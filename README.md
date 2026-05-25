@@ -1,3 +1,18 @@
+---
+title: RAG Document Assistant
+emoji: 📄
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
+
+# RAG Document Q&A Assistant
+
+An AI-powered application...
+
 # RAG Document Q&A Assistant
 
 An AI-powered application that answers questions from any uploaded PDF document using RAG (Retrieval-Augmented Generation) architecture.
