@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 from dotenv import load_dotenv
 
@@ -79,5 +78,5 @@ def ask_question(chain_tuple, question: str) -> dict:
     source_docs = retriever.invoke(question)
     return {
         "answer": answer,
-        "sources": [doc.page_content[:200] for doc in source_docs]
+        "sources": [doc.page_content[:500] for doc in source_docs]
     }
